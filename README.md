@@ -4,7 +4,7 @@
 - Nicolas Alvarez
 - Jose Cassano
 
-Nos asignaron para resolver un problema de google code jam, en particular [Qualification Round 2014](https://code.google.com/codejam/contest/2974486/dashboard). Utilizando el lenguaje [Haskell](https://www.haskell.org/) para la resolucion al mismo. 
+Nos asignaron para resolver un problema de google code jam, en particular [Qualification Round 2014](https://code.google.com/codejam/contest/2974486/dashboard). Utilizando solo el lenguaje [Haskell](https://www.haskell.org/) para la resolucion al mismo.
 
 ## Enunciado
 ### Problem
