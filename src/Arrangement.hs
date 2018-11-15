@@ -1,4 +1,4 @@
-module Arrangement where
+module Arrangement(module Arrangement,module Matrix) where
 import Matrix
 
 data Arrangement a = Argt Int (Matrix a)

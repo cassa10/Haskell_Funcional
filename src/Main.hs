@@ -1,5 +1,4 @@
 import MagicTrick
-import Arrangement
 
 main = do
     c <- readFile "A-small-practice.in"

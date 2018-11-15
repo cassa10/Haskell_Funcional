@@ -1,4 +1,4 @@
-module MagicTrick where
+module MagicTrick(module MagicTrick, module Arrangement) where
 
 import Arrangement
 
