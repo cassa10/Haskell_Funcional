@@ -20,10 +20,3 @@ listSameElems (x:xs) ys =
         then x:listSameElems xs ys
         else listSameElems xs ys
 
-getTrick :: (Show a, Eq a) => Arrangement a -> Arrangement a -> String
-getTrick argt1 argt2 =
-    let ls = listSameElems (getVolunteerRow argt1) (getVolunteerRow argt2) in
-    case length ls of
-         0 -> "Volunteer cheated!"
-         1 -> show (head ls)
-         n -> "Bad magician!"
