@@ -2,7 +2,7 @@ module MagicTrick(module MagicTrick, module Arrangement) where
 
 import Arrangement
 
-data MagicTrick a = Mgt (Arrangement a) (Arrangement a)
+data MagicTrick a = Mgt (Arrangement a) (Arrangement a) deriving Show
 
 getMagicTrick :: (Show a, Eq a) => MagicTrick a -> String
 getMagicTrick (Mgt argt1 argt2) = getTrick argt1 argt2
