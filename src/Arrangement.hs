@@ -20,3 +20,5 @@ listSameElems (x:xs) ys =
         then x:listSameElems xs ys
         else listSameElems xs ys
 
+getAgt :: Int -> [String] -> Arrangement String
+getAgt n xs = Argt n (createMatrix xs 4 4)
