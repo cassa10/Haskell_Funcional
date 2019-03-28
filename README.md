@@ -32,7 +32,7 @@ If there is a single card the volunteer could have chosen, y should be the numbe
 ### Limits
 - 1 ≤ T ≤ 100.
 - 1 ≤ both answers ≤ 4.
-- Each number from 1 to 16 will appear exactly once in each arrangement.
+- Each number from 1 to 16 will appear exactly once in each arrangement
 
 <p align="center">
   <img src="./example.png" />
